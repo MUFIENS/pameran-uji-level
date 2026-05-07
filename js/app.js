@@ -110,7 +110,7 @@ const PROJECTS = [
     id: 6,
     name: "NilaiKu — Sistem Manajemen Nilai",
     team: "Putri Amallia",
-    kelas: "X PPLG 2",
+    kelas: "X PPLG 3",
     kategori: "Individual",
     desc: "Aplikasi pengelolaan nilai siswa berbasis web yang memudahkan guru dalam input nilai, perhitungan rata-rata, dan pembuatan rapor digital.",
     descLong:
