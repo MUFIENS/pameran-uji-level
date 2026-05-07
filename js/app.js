@@ -108,21 +108,21 @@ const PROJECTS = [
   },
   {
     id: 6,
-    name: "NilaiKu — Sistem Manajemen Nilai",
-    team: "Putri Amallia",
-    kelas: "X PPLG 3",
+    name: "LapakSapa",
+    team: "Muhammad Devara Hermawan",
+    kelas: "X PPLG 1",
     kategori: "Individual",
-    desc: "Aplikasi pengelolaan nilai siswa berbasis web yang memudahkan guru dalam input nilai, perhitungan rata-rata, dan pembuatan rapor digital.",
+    desc: "Situs website jual beli barang dengan web3. Dengan fitur filter harga, chat realtime, dan lain lain.",
     descLong:
-      "NilaiKu membantu guru mengelola nilai siswa secara digital dari mulai input nilai harian, UTS, hingga UAS. Sistem ini secara otomatis menghitung rata-rata nilai, menampilkan grafik perkembangan belajar siswa, dan menghasilkan laporan nilai yang siap dicetak.",
+      "LapakSapa membantu untuk menjual atau membeli barang dengan mudah dan aman. Sistem ini secara otomatis membantu pengguna untuk mencari barang yang mereka inginkan, serta membantu penjual untuk menjual barang mereka.",
     tujuan:
-      "Mempermudah guru dalam pengelolaan nilai dan memberikan informasi perkembangan belajar siswa yang transparan kepada orang tua.",
+      "Mempermudah dalam menjual atau membeli barang dengan mudah dan aman.",
     anggota: [
-      { nama: "Putri Amallia", peran: "Full Stack Developer" },
+      { nama: "Muhammad Devara Hermawan", peran: "Full Stack Developer" },
     ],
-    tech: ["HTML", "CSS", "JavaScript", "PHP", "MySQL"],
-    demo: "#",
-    github: "https://github.com",
+    tech: ["react", "next js", "tailwind css", "supabase"],
+    demo: "https://ground-shop.vercel.app/",
+    github: "https://github.com/devara-g/groundShop",
     color: "#2B6CB0",
   },
 ];
