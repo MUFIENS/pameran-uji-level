@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pameran Uji Level — Kelas X PPLG SMKN 1 Ciomas</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+</head>
+<body>
+
+<!-- ==============================
+     NAVBAR
+     ============================== -->
+<nav class="navbar">
+  <div class="container">
+    <div class="navbar__inner">
+      <a href="#" class="navbar__brand" data-page="home">
+        <div class="navbar__logo">S1C</div>
+        <div class="navbar__brand-text">
+          <div class="navbar__brand-name">SMKN 1 Ciomas</div>
+          <div class="navbar__brand-sub">Jurusan PPLG — Pameran Uji Level 2026</div>
+        </div>
+      </a>
+
+      <nav class="navbar__nav" role="navigation" aria-label="Menu Utama">
+        <a href="#" class="navbar__link" data-page="home">Beranda</a>
+        <a href="#" class="navbar__link" data-page="projects">Project</a>
+        <a href="#" class="navbar__link" data-page="about">Tentang</a>
+      </nav>
+
+      <button class="navbar__toggle" id="navToggle" aria-label="Buka menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <div class="navbar__mobile" id="mobileNav">
+      <a href="#" class="navbar__link" data-page="home">Beranda</a>
+      <a href="#" class="navbar__link" data-page="projects">Project</a>
+      <a href="#" class="navbar__link" data-page="about">Tentang</a>
+    </div>
+  </div>
+</nav>
+
+<!-- ==============================
+     PAGE: HOME
+     ============================== -->
+<div class="page" id="page-home">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero__inner">
+        <div class="hero__badge">Kegiatan Uji Level 2026</div>
+        <h1 class="hero__title">
+          Pameran Hasil <em>Uji Level</em><br>
+          Kelas 10 PPLG<br>SMKN 1 Ciomas
+        </h1>
+        <p class="hero__desc">
+          Wadah digital resmi untuk menampilkan seluruh hasil karya website siswa kelas X Program Keahlian Pengembangan Perangkat Lunak dan Gim (PPLG) dalam kegiatan Uji Level Tahun Ajaran 2024/2025.
+        </p>
+        <div class="hero__actions">
+          <button class="btn btn-primary js-goto-projects">
+            Lihat Semua Project
+            <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+          </button>
+          <button class="btn btn-outline-white" data-page="about">Tentang Uji Level</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STATS BAR -->
+  <div class="stats-bar">
+    <div class="container">
+      <div class="stats-bar__inner">
+        <div class="stats-bar__item">
+          <div class="stats-bar__num" id="statTim">—</div>
+          <div class="stats-bar__label">Tim Peserta</div>
+        </div>
+        <div class="stats-bar__item">
+          <div class="stats-bar__num" id="statProject">—</div>
+          <div class="stats-bar__label">Project Website</div>
+        </div>
+        <div class="stats-bar__item">
+          <div class="stats-bar__num" id="statSiswa">—</div>
+          <div class="stats-bar__label">Siswa Terlibat</div>
+        </div>
+        <div class="stats-bar__item">
+          <div class="stats-bar__num">2025</div>
+          <div class="stats-bar__label">Tahun Kegiatan</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- RECENT PROJECTS -->
+  <section class="section">
+    <div class="container">
+      <div style="display:flex;align-items:flex-end;justify-content:space-between;margin-bottom:36px;gap:16px;flex-wrap:wrap">
+        <div>
+          <div class="section-label">Karya Siswa</div>
+          <h2 class="section-title">Project Terbaru</h2>
+          <p class="section-sub">Beberapa project pilihan yang dibuat oleh tim-tim terbaik dalam kegiatan Uji Level.</p>
+        </div>
+        <button class="btn btn-outline js-goto-projects" style="flex-shrink:0">Lihat Semua</button>
+      </div>
+      <div class="projects-grid" id="recentGrid">
+        <!-- Rendered by JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- WELCOME / QUOTE -->
+  <section class="welcome-section">
+    <div class="container">
+      <div class="welcome-inner">
+        <div class="welcome-text">
+          <div class="section-label">Sambutan Jurusan</div>
+          <h2 class="section-title">Bangga Atas Karya<br>Siswa-siswi PPLG</h2>
+          <p class="section-sub" style="margin-top:14px">
+            Kegiatan Uji Level adalah bukti nyata bahwa siswa-siswi kelas X PPLG SMKN 1 Ciomas telah mampu mengaplikasikan ilmu yang dipelajari ke dalam karya nyata berupa website fungsional.
+          </p>
+          <p class="section-sub" style="margin-top:12px">
+            Setiap project yang ditampilkan mencerminkan kerja keras, kreativitas, dan semangat kolaborasi yang kami banggakan sebagai bagian dari keluarga besar SMKN 1 Ciomas.
+          </p>
+          <div style="margin-top:28px">
+            <button class="btn btn-outline-white js-goto-projects">Jelajahi Semua Project</button>
+          </div>
+        </div>
+        <div class="welcome-quote">
+          <div class="welcome-quote__text">
+            "Pendidikan kejuruan bukan sekadar teori di kelas — ia adalah tempat lahirnya karya nyata yang memberi manfaat bagi masyarakat. Uji Level adalah langkah pertama siswa kami menuju dunia industri."
+          </div>
+          <div class="welcome-quote__author">
+            — Ketua Program Keahlian PPLG<br>
+            <span style="font-weight:400;opacity:.7">SMKN 1 Ciomas, Bogor</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CALL TO ACTION -->
+  <section class="section">
+    <div class="container text-center">
+      <div class="section-label">Eksplorasi Lebih</div>
+      <h2 class="section-title">Temukan Seluruh Project<br>Siswa Kelas X PPLG</h2>
+      <p class="section-sub" style="margin:12px auto 28px">
+        Seluruh hasil project Uji Level tersedia untuk dilihat secara lengkap. Cari berdasarkan kategori, kelas, atau nama project yang Anda minati.
+      </p>
+      <button class="btn btn-primary js-goto-projects" style="font-size:.95rem;padding:13px 28px">
+        Buka Halaman Project
+        <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M5 12h14M12 5l7 7-7 7"/>
+        </svg>
+      </button>
+    </div>
+  </section>
+
+</div><!-- /page-home -->
+
+
+<!-- ==============================
+     PAGE: PROJECTS
+     ============================== -->
+<div class="page" id="page-projects">
+
+  <div class="page-hero">
+    <div class="container">
+      <div class="section-label">Pameran Karya Siswa</div>
+      <h1 class="section-title">Semua Project Uji Level</h1>
+      <p class="section-sub">Jelajahi seluruh hasil karya tim-tim siswa kelas X PPLG dalam kegiatan Uji Level Tahun Ajaran 2025/2026.</p>
+    </div>
+  </div>
+
+  <section class="section">
+    <div class="container">
+
+      <!-- FILTER BAR -->
+      <div class="filter-bar">
+        <div class="search-wrap">
+          <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <circle cx="11" cy="11" r="8"/><path stroke-linecap="round" d="M21 21l-4.35-4.35"/>
+          </svg>
+          <input type="text" class="search-input" id="searchInput" placeholder="Cari nama project atau tim…" />
+        </div>
+        <select class="select-filter" id="kelasFilter"></select>
+      </div>
+
+      <div class="filter-group" id="kategoriGroup" style="margin-bottom:20px"></div>
+
+      <div class="results-info" id="resultsInfo"></div>
+
+      <div class="projects-grid" id="projectsGrid">
+        <!-- Rendered by JS -->
+      </div>
+
+    </div>
+  </section>
+</div><!-- /page-projects -->
+
+
+<!-- ==============================
+     PAGE: DETAIL
+     ============================== -->
+<div class="page" id="page-detail">
+
+  <div class="detail-hero">
+    <div class="container">
+      <a href="#" class="detail-hero__back" data-page="projects">
+        <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M19 12H5M12 19l-7-7 7-7"/>
+        </svg>
+        Kembali ke Daftar Project
+      </a>
+      <div style="margin-bottom:12px">
+        <span class="badge badge--blue" id="detailBadge" style="background:rgba(255,255,255,.15);color:white;border:1px solid rgba(255,255,255,.25)"></span>
+      </div>
+      <h1 class="detail-hero__title" id="detailTitle">—</h1>
+      <div class="detail-hero__team" id="detailTeam">—</div>
+    </div>
+  </div>
+
+  <section class="detail-body">
+    <div class="container">
+      <div class="detail-layout">
+
+        <!-- MAIN -->
+        <div class="detail-main">
+          <div class="detail-screenshot">
+            <div class="card__thumb-placeholder" style="height:280px">
+              <svg width="48" height="48" fill="none" stroke="currentColor" stroke-width="1.4" viewBox="0 0 24 24" color="#1A5496">
+                <rect x="2" y="3" width="20" height="14" rx="2" ry="2"/>
+                <path stroke-linecap="round" d="M8 21h8M12 17v4"/>
+              </svg>
+              <span style="font-size:.85rem">Screenshot Website Project</span>
+            </div>
+          </div>
+
+          <h3>Deskripsi Project</h3>
+          <p id="detailDesc">—</p>
+
+          <h3>Tujuan Project</h3>
+          <p id="detailTujuan">—</p>
+
+          <h3>Teknologi yang Digunakan</h3>
+          <div class="card__tech" id="detailTech" style="margin-top:10px"></div>
+        </div>
+
+        <!-- SIDEBAR -->
+        <div class="detail-sidebar">
+          <div class="detail-sidebar-card">
+            <h4>Anggota Tim</h4>
+            <div class="member-list" id="detailMembers"></div>
+          </div>
+
+          <div class="detail-sidebar-card">
+            <h4>Tautan Project</h4>
+            <div id="detailLinks"></div>
+          </div>
+
+          <div class="detail-sidebar-card" style="background:var(--off-white)">
+            <h4>Informasi</h4>
+            <div style="font-size:.85rem;color:var(--text-muted);line-height:1.8">
+              <div><strong style="color:var(--text-main);font-weight:600">Kegiatan:</strong> Uji Level 2025/2026</div>
+              <div><strong style="color:var(--text-main);font-weight:600">Sekolah:</strong> SMKN 1 Ciomas</div>
+              <div><strong style="color:var(--text-main);font-weight:600">Program:</strong> PPLG</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+</div><!-- /page-detail -->
+
+
+<!-- ==============================
+     PAGE: ABOUT
+     ============================== -->
+<div class="page" id="page-about">
+
+  <div class="about-hero page-hero">
+    <div class="container">
+      <div class="section-label">Informasi Kegiatan</div>
+      <h1 class="section-title">Tentang Uji Level</h1>
+      <p class="section-sub">Memahami lebih dalam kegiatan Uji Level di Program Keahlian PPLG SMKN 1 Ciomas.</p>
+    </div>
+  </div>
+
+  <!-- APA ITU UJI LEVEL -->
+  <section class="section">
+    <div class="container">
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center" class="about-intro-grid">
+        <div>
+          <div class="section-label">Kegiatan</div>
+          <h2 class="section-title">Apa itu Uji Level?</h2>
+          <p class="section-sub" style="margin-bottom:14px">
+            Uji Level adalah kegiatan evaluasi praktik akhir semester yang diadakan oleh Program Keahlian Pengembangan Perangkat Lunak dan Gim (PPLG) SMKN 1 Ciomas. Kegiatan ini dirancang untuk mengukur kompetensi siswa secara langsung melalui pembuatan proyek nyata.
+          </p>
+          <p style="font-size:.93rem;color:var(--text-muted);line-height:1.75;margin-bottom:14px">
+            Berbeda dengan ujian teori biasa, Uji Level mengharuskan siswa — secara berkelompok — untuk merencanakan, mendesain, dan membangun sebuah website fungsional dalam jangka waktu yang telah ditentukan.
+          </p>
+          <p style="font-size:.93rem;color:var(--text-muted);line-height:1.75">
+            Hasil project dinilai oleh guru pengampu berdasarkan aspek fungsionalitas, desain antarmuka, kualitas kode, dan presentasi tim. Project terbaik kemudian dipamerkan dalam kegiatan Pameran Uji Level.
+          </p>
+        </div>
+        <div style="background:var(--off-white);border:1px solid var(--gray-200);border-radius:var(--radius-lg);padding:36px">
+          <div style="font-size:.78rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--text-faint);margin-bottom:20px">Pelaksanaan Uji Level</div>
+          <div style="display:flex;flex-direction:column;gap:18px">
+            <div style="display:flex;gap:14px">
+              <div style="width:36px;height:36px;border-radius:50%;background:var(--blue-soft);display:flex;align-items:center;justify-content:center;color:var(--navy);font-weight:700;font-size:.85rem;flex-shrink:0">1</div>
+              <div>
+                <div style="font-weight:600;font-size:.9rem;color:var(--navy);margin-bottom:4px">Pembentukan Tim</div>
+                <div style="font-size:.82rem;color:var(--text-muted)">Siswa dibagi dalam tim beranggotakan 2–4 orang dan menentukan topik project.</div>
+              </div>
+            </div>
+            <div style="display:flex;gap:14px">
+              <div style="width:36px;height:36px;border-radius:50%;background:var(--blue-soft);display:flex;align-items:center;justify-content:center;color:var(--navy);font-weight:700;font-size:.85rem;flex-shrink:0">2</div>
+              <div>
+                <div style="font-weight:600;font-size:.9rem;color:var(--navy);margin-bottom:4px">Perencanaan & Desain</div>
+                <div style="font-size:.82rem;color:var(--text-muted)">Tim membuat perencanaan sistem, wireframe, dan desain antarmuka website.</div>
+              </div>
+            </div>
+            <div style="display:flex;gap:14px">
+              <div style="width:36px;height:36px;border-radius:50%;background:var(--blue-soft);display:flex;align-items:center;justify-content:center;color:var(--navy);font-weight:700;font-size:.85rem;flex-shrink:0">3</div>
+              <div>
+                <div style="font-weight:600;font-size:.9rem;color:var(--navy);margin-bottom:4px">Pengembangan Website</div>
+                <div style="font-size:.82rem;color:var(--text-muted)">Tim membangun website fungsional menggunakan teknologi web yang telah dipelajari.</div>
+              </div>
+            </div>
+            <div style="display:flex;gap:14px">
+              <div style="width:36px;height:36px;border-radius:50%;background:var(--blue-soft);display:flex;align-items:center;justify-content:center;color:var(--navy);font-weight:700;font-size:.85rem;flex-shrink:0">4</div>
+              <div>
+                <div style="font-weight:600;font-size:.9rem;color:var(--navy);margin-bottom:4px">Presentasi & Penilaian</div>
+                <div style="font-size:.82rem;color:var(--text-muted)">Tim mempresentasikan hasil kerja di hadapan guru penilai dan siswa lain.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TUJUAN & MANFAAT -->
+  <section class="section section--gray">
+    <div class="container">
+      <div class="text-center" style="margin-bottom:40px">
+        <div class="section-label">Tujuan & Manfaat</div>
+        <h2 class="section-title">Mengapa Uji Level Penting?</h2>
+        <p class="section-sub">Kegiatan ini dirancang untuk mempersiapkan siswa menghadapi dunia kerja dan industri teknologi informasi secara nyata.</p>
+      </div>
+
+      <div class="info-grid">
+        <div class="info-card">
+          <div class="info-card__icon">
+            <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 0 0 1.946-.806 3.42 3.42 0 0 1 4.438 0 3.42 3.42 0 0 0 1.946.806 3.42 3.42 0 0 1 3.138 3.138 3.42 3.42 0 0 0 .806 1.946 3.42 3.42 0 0 1 0 4.438 3.42 3.42 0 0 0-.806 1.946 3.42 3.42 0 0 1-3.138 3.138 3.42 3.42 0 0 0-1.946.806 3.42 3.42 0 0 1-4.438 0 3.42 3.42 0 0 0-1.946-.806 3.42 3.42 0 0 1-3.138-3.138 3.42 3.42 0 0 0-.806-1.946 3.42 3.42 0 0 1 0-4.438 3.42 3.42 0 0 0 .806-1.946 3.42 3.42 0 0 1 3.138-3.138z"/></svg>
+          </div>
+          <div class="info-card__title">Mengukur Kompetensi Nyata</div>
+          <div class="info-card__desc">Uji Level memastikan setiap siswa benar-benar mampu menerapkan kemampuan pemrograman web dalam project yang bermakna dan fungsional.</div>
+        </div>
+
+        <div class="info-card">
+          <div class="info-card__icon">
+            <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17 20h5v-2a3 3 0 0 0-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 0 1 5.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 0 1 9.288 0M15 7a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/></svg>
+          </div>
+          <div class="info-card__title">Membangun Kemampuan Kolaborasi</div>
+          <div class="info-card__desc">Dengan bekerja dalam tim, siswa belajar bagaimana berkoordinasi, membagi tugas, dan menyelesaikan konflik secara profesional layaknya tim di industri.</div>
+        </div>
+
+        <div class="info-card">
+          <div class="info-card__icon">
+            <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M21 13.255A23.931 23.931 0 0 1 12 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2m4 6h.01M5 20h14a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2z"/></svg>
+          </div>
+          <div class="info-card__title">Persiapan Dunia Kerja</div>
+          <div class="info-card__desc">Project yang dibuat mencerminkan kebutuhan industri nyata — dari sistem kasir hingga e-commerce — sehingga siswa siap terjun ke dunia kerja maupun berwirausaha.</div>
+        </div>
+
+        <div class="info-card">
+          <div class="info-card__icon">
+            <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-3l-4 4z"/></svg>
+          </div>
+          <div class="info-card__title">Melatih Kemampuan Presentasi</div>
+          <div class="info-card__desc">Setiap tim wajib mempresentasikan karyanya, melatih kemampuan komunikasi teknis dan kepercayaan diri dalam memaparkan hasil kerja kepada audiens.</div>
+        </div>
+
+        <div class="info-card">
+          <div class="info-card__icon">
+            <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 16l4.586-4.586a2 2 0 0 1 2.828 0L16 16m-2-2 1.586-1.586a2 2 0 0 1 2.828 0L20 14m-6-6h.01M6 20h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2z"/></svg>
+          </div>
+          <div class="info-card__title">Membangun Portofolio Digital</div>
+          <div class="info-card__desc">Setiap project yang dibuat menjadi bagian dari portofolio digital siswa yang dapat ditunjukkan kepada calon pemberi kerja atau saat mendaftar ke perguruan tinggi.</div>
+        </div>
+
+        <div class="info-card">
+          <div class="info-card__icon">
+            <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 0 0 .95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 0 0-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 0 0-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 0 0-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 0 0 .951-.69l1.519-4.674z"/></svg>
+          </div>
+          <div class="info-card__title">Menumbuhkan Motivasi Belajar</div>
+          <div class="info-card__desc">Melihat karya sendiri dipamerkan dan diapresiasi mendorong siswa untuk terus belajar dan berkembang, menciptakan iklim belajar yang positif di jurusan.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALERI -->
+  <section class="section">
+    <div class="container">
+      <div class="text-center" style="margin-bottom:36px">
+        <div class="section-label">Dokumentasi</div>
+        <h2 class="section-title">Galeri Kegiatan</h2>
+        <p class="section-sub">Dokumentasi suasana pelaksanaan Uji Level Tahun Ajaran 2025/2026 di SMKN 1 Ciomas.</p>
+      </div>
+      <div class="gallery-grid">
+        <div class="gallery-item" style="background:var(--blue-soft);color:var(--navy-light);font-size:.82rem;font-weight:500;text-align:center;padding:16px;">Presentasi Tim Alpha</div>
+        <div class="gallery-item" style="background:#f0f4f8;color:var(--gray-400);font-size:.82rem;font-weight:500;text-align:center;padding:16px;">Penilaian oleh Guru</div>
+        <div class="gallery-item" style="background:var(--blue-soft);color:var(--navy-light);font-size:.82rem;font-weight:500;text-align:center;padding:16px;">Demo Project</div>
+        <div class="gallery-item" style="background:#f0f4f8;color:var(--gray-400);font-size:.82rem;font-weight:500;text-align:center;padding:16px;">Sesi Pengembangan</div>
+        <div class="gallery-item" style="background:var(--blue-soft);color:var(--navy-light);font-size:.82rem;font-weight:500;text-align:center;padding:16px;">Foto Bersama Tim</div>
+        <div class="gallery-item" style="background:#f0f4f8;color:var(--gray-400);font-size:.82rem;font-weight:500;text-align:center;padding:16px;">Penyerahan Sertifikat</div>
+      </div>
+      <p style="text-align:center;font-size:.82rem;color:var(--text-faint);margin-top:14px">*Foto dokumentasi akan ditambahkan setelah kegiatan berlangsung.</p>
+    </div>
+  </section>
+
+  <!-- INFORMASI SEKOLAH -->
+  <section class="section section--navy">
+    <div class="container text-center">
+      <div class="section-label" style="color:#90CDF4">Informasi Sekolah</div>
+      <h2 class="section-title" style="color:white">SMKN 1 Ciomas</h2>
+      <p class="section-sub" style="color:rgba(255,255,255,.7);margin:12px auto 0">
+        Sekolah Menengah Kejuruan Negeri 1 Ciomas adalah SMK unggulan di Kabupaten Bogor yang menyediakan berbagai program keahlian di bidang teknologi informasi, teknik, dan bisnis. Program Keahlian PPLG hadir untuk mencetak lulusan yang siap berkarya di industri pengembangan perangkat lunak.
+      </p>
+      <div style="display:flex;justify-content:center;gap:16px;flex-wrap:wrap;margin-top:28px">
+        <button class="btn btn-outline-white js-goto-projects">Lihat Project Siswa</button>
+      </div>
+    </div>
+  </section>
+
+</div><!-- /page-about -->
+
+
+<!-- ==============================
+     FOOTER
+     ============================== -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer__inner">
+      <div>
+        <div class="footer__brand">
+          <div class="footer__logo">S1C</div>
+          <div>
+            <div class="footer__brand-name">SMKN 1 Ciomas</div>
+            <div class="footer__brand-desc" style="margin-top:4px">
+              Pameran Hasil Uji Level Kelas X Program Keahlian Pengembangan Perangkat Lunak dan Gim (PPLG) Tahun Ajaran 2025/2026.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <div class="footer__heading">Navigasi</div>
+        <div class="footer__links">
+          <a href="#" data-page="home">Beranda</a>
+          <a href="#" data-page="projects">Daftar Project</a>
+          <a href="#" data-page="about">Tentang Uji Level</a>
+        </div>
+      </div>
+
+      <div>
+        <div class="footer__heading">Informasi</div>
+        <div style="font-size:.85rem;line-height:2;display:flex;flex-direction:column;gap:2px">
+          <span>Program Keahlian PPLG</span>
+          <span>Kelas X — Tahun 2026</span>
+          <span>Ciomas, Kabupaten Bogor</span>
+          <span>Jawa Barat, Indonesia</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <div>© 2025 SMKN 1 Ciomas · Jurusan PPLG. Seluruh karya adalah milik siswa masing-masing.</div>
+      <div style="color:rgba(255,255,255,.35)">Pameran Uji Level 2025/2026</div>
+    </div>
+  </div>
+</footer>
+
+<style>
+  @media (max-width: 700px) {
+    .about-intro-grid { grid-template-columns: 1fr !important; gap: 28px !important; }
+  }
+</style>
+
+<script src="js/app.js"></script>
+</body>
+</html>
