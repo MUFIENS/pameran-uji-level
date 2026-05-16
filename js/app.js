@@ -12,6 +12,7 @@
     descLong:
       "Website profil sekolah SDN Margajaya 4 yang menyediakan informasi sekolah secara online.",
     tujuan: "Menyediakan media informasi digital sekolah.",
+    thumbnail: "thumbnail/sdn-margajaya-4.jpg",
     anggota: [
       { nama: "Muhammad Achdia Manggala", peran: "Data Analis" },
       { nama: "Dede Maulana", peran: "Data Analis" },
@@ -34,6 +35,7 @@
     descLong:
       "Website perpustakaan digital untuk pengelolaan buku secara online.",
     tujuan: "Mempermudah pengelolaan perpustakaan.",
+    thumbnail: "thumbnail/perpustakaandarulihya.jpg",
     anggota: [
       { nama: "Muhammad Refan A W", peran: "PM" },
       { nama: "M Alif Fatir S", peran: "Analis" },
@@ -55,6 +57,7 @@
     descLong:
       "Platform digital administrasi sekolah dan publikasi informasi real-time.",
     tujuan: "Meningkatkan efisiensi tata kelola sekolah.",
+    thumbnail: "thumbnail/sdn annur.png",
     anggota: [
       { nama: "Ilham Muhamad Fahri", peran: "PM" },
       { nama: "Nazhril Rizky Alfiansyah", peran: "Data Analis" },
@@ -76,6 +79,7 @@
     descLong:
       "Website sekolah berbasis web untuk penyampaian informasi.",
     tujuan: "Mempermudah akses informasi sekolah.",
+    thumbnail: "thumbnail/anwarul.png",
     anggota: [
       { nama: "RAFLI", peran: "Programmer" },
       { nama: "CRISNA JULIANA", peran: "PM" },
@@ -97,6 +101,7 @@
     descLong:
       "Website resmi sekolah untuk menyampaikan informasi akademik dan non akademik.",
     tujuan: "Menyediakan media informasi sekolah modern.",
+    thumbnail: "thumbnail/smp negeri ciomas dua.png",
     anggota: [
       { nama: "Rasyid Ridho Alfaraby", peran: "Analyst" },
       { nama: "Putra Raden Al Aziz", peran: "Analyst" },
@@ -119,6 +124,7 @@
     descLong:
       "Website profil sekolah dengan informasi madrasah dan ekstrakurikuler.",
     tujuan: "Menyediakan informasi sekolah secara online.",
+    thumbnail: "thumbnail/al bayyinah.jpg",
     anggota: [
       { nama: "Muhammad Haekal Zarkasih", peran: "PM" },
       { nama: "Fardan Ramadhan Saputra", peran: "Programmer" },
@@ -141,6 +147,7 @@
     descLong:
       "Website profil sekolah berbasis web dengan tampilan modern.",
     tujuan: "Menyediakan informasi sekolah kepada masyarakat.",
+    thumbnail: "thumbnail/mis darul ihya.jpg",
     anggota: [
       { nama: "Muhammad Noval Aidil Adha", peran: "Programmer" },
       { nama: "Muhammad Hafiyz Nurhidayah", peran: "Analis" },
@@ -162,6 +169,7 @@
     descLong:
       "Sistem perpustakaan digital berbasis web untuk sekolah.",
     tujuan: "Mempermudah pengelolaan perpustakaan.",
+    thumbnail: "thumbnail/perpusp3.jpg",
     anggota: [
       { nama: "Davin Alfarrel Nasrullah", peran: "Programmer" },
       { nama: "Dema Arya Ramadhan", peran: "Analyst" },
@@ -183,6 +191,7 @@
     descLong:
       "Website informasi sekolah dan kegiatan belajar berbasis Qur'an.",
     tujuan: "Mempermudah komunikasi sekolah dan orang tua.",
+    thumbnail: "thumbnail/paud al iklas.png",
     anggota: [
       { nama: "Reisya Auliaul Jannah", peran: "PM" },
       { nama: "Alivia Cahaya Lukmana", peran: "Analis" },
@@ -204,6 +213,7 @@
     descLong:
       "Website resmi sekolah dasar dengan informasi sekolah dan prestasi.",
     tujuan: "Menyediakan informasi sekolah secara online.",
+    thumbnail: "thumbnail/sdn laladon.png",
     anggota: [
       { nama: "Revan Riswadi", peran: "PM" },
       { nama: "Habib Tegar Ramadhan", peran: "Analis" },
@@ -225,6 +235,7 @@
     descLong:
       "Website sekolah modern dengan portal berita, fasilitas, dan kotak saran digital.",
     tujuan: "Mempermudah penyampaian informasi sekolah.",
+    thumbnail: "thumbnail/smp pgri.jpg",
     anggota: [
       { nama: "Angeliska Putri Setia Budi", peran: "PM" },
       { nama: "Dzakia Salsabila", peran: "Analis" },
@@ -247,6 +258,7 @@
     descLong:
       "Website sebagai sarana informasi dan komunikasi orang tua dengan sekolah.",
     tujuan: "Meningkatkan komunikasi sekolah dan orang tua.",
+    thumbnail: "thumbnail/tk al muhaijirin.jpeg",
     anggota: [
       { nama: "Faneza Putri", peran: "Project Manager" },
       { nama: "Salsabiila Azzahra", peran: "Analyst" },
@@ -268,6 +280,7 @@
     descLong:
       "Website sekolah untuk penyampaian informasi akademik dan kegiatan sekolah.",
     tujuan: "Meningkatkan pelayanan informasi sekolah.",
+    thumbnail: "thumbnail/smp kusuma bangsa.png",
     anggota: [
       { nama: "Aditya", peran: "PM" },
       { nama: "Lulu", peran: "Programmer" },
@@ -289,6 +302,7 @@
     descLong:
       "Website informasi digital sekolah dengan fitur berita, PPDB, galeri, dan profil sekolah.",
     tujuan: "Mempermudah akses informasi sekolah.",
+    thumbnail: "thumbnail/bina karya kreatif.png",
     anggota: [
       { nama: "Adhyaksa Fitrah", peran: "PM" },
       { nama: "Reny Hidayatus Sholekha", peran: "Analis" },
@@ -310,6 +324,7 @@
     descLong:
       "Website PPDB online untuk mempermudah pendaftaran siswa baru.",
     tujuan: "Meningkatkan efisiensi pendaftaran siswa baru.",
+    thumbnail: "thumbnail/smp yza.png",
     anggota: [
       { nama: "Taruna Jaya Laksana S", peran: "PM" },
       { nama: "Abyan Alfarizi", peran: "Analis" },
@@ -331,6 +346,7 @@
     descLong:
       "Sistem pendaftaran siswa baru berbasis web dengan informasi lengkap.",
     tujuan: "Mempermudah proses PPDB online.",
+    thumbnail: "thumbnail/ppdb al azhar.png",
     anggota: [
       { nama: "Davin Al Ghifari", peran: "Programmer" },
       { nama: "Aura Cantika", peran: "PM" },
@@ -352,6 +368,7 @@
     descLong:
       "Website sekolah dengan fitur berita, PPDB, dashboard admin, dan galeri kegiatan.",
     tujuan: "Menyediakan portal informasi sekolah modern.",
+    thumbnail: "thumbnail/ibnu aqil.png",
     anggota: [
       { nama: "Abdad Farras Orlando", peran: "Programmer" },
       { nama: "Achmad Khadaffi P.A", peran: "Analis" },
@@ -374,6 +391,7 @@
     descLong:
       "Website untuk organisasi sekolah dan penyampaian aspirasi siswa dengan sistem status aspirasi.",
     tujuan: "Mempermudah penyampaian aspirasi siswa.",
+    thumbnail: "thumbnail/ROA.png",
     anggota: [
       { nama: "Muhammad Rajib Zahir", peran: "Analisis" },
       { nama: "Nadine Shahmina", peran: "PM" },
@@ -395,6 +413,7 @@
       "LapakSapa membantu untuk menjual atau membeli barang dengan mudah dan aman. Sistem ini secara otomatis membantu pengguna untuk mencari barang yang mereka inginkan, serta membantu penjual untuk menjual barang mereka.",
     tujuan:
       "Mempermudah dalam menjual atau membeli barang dengan mudah dan aman.",
+    thumbnail: "thumbnail/IMG-20260516-WA0050 - Septian Azriel.jpg",
     anggota: [
       { nama: "Muhammad Devara Hermawan", peran: "Full Stack Developer" },
     ],
@@ -414,6 +433,7 @@
       "SiP3 membantu untuk menyampaikan atau mengumumkan informasi dengan mudah dan aman. Sistem ini secara otomatis membantu pengguna untuk mencari informasi yang mereka inginkan, serta Mempermudah sekolah untuk menyampaikan informasi mereka.",
     tujuan:
       "Mempermudah dalam menyampaikan atau mencari informasi dengan mudah dan aman.",
+    thumbnail: "thumbnail/smp pgri 3.png",
     anggota: [
       { nama: "Muhammad Devara Hermawan", peran: "Full Stack Developer" },
       { nama: "Muhammad Imam Maliq Al-kahfi", peran: "Project Manager " },
@@ -425,7 +445,49 @@
     github: "https://github.com/devara-g/Information-p3-website",
     color: "#2B6CB0",
   },
+  {
+    id: 21,
+    name: "SDN Neglasari 01 school web",
+    team: "tim SDN Neglasari 01",
+    kelas: "X PPLG 1",
+    kategori: "Kelompok",
+    desc: "website profil sekolah SDN Neglasari 01 yang dibuat untuk memberikan informasi sekolah secara online. Di dalam website terdapat menu Beranda, Tentang, Program, Informasi, Guru dan Staff, serta Kontak agar pengunjung lebih mudah mencari informasi sekolah.",
+    descLong:
+        "membantu untuk menyampaikan atau mengumumkan informasi dengan mudah dan aman. Sistem ini secara otomatis membantu pengguna untuk mencari informasi yang mereka inginkan, serta Mempermudah sekolah untuk menyampaikan informasi mereka.",
+    tujuan:
+      "Mempermudah dalam menyampaikan atau mencari informasi dengan mudah dan aman.",
+    thumbnail: "thumbnail/smp neglasari.png",
+    anggota: [
+      { nama: "Muhammad Rizki Maulana", peran: "Full Stack Developer" },
+      { nama: "Rahma Oktaviani Gunawan", peran: "Project Manager " },
+      { nama: "Novia Aulia Putri", peran: "Analis" },
+    ],
+    tech: ["PHP", "MYSQL ", "JS","css"],
+    demo: "http://sdnneglasari01.my.id",
+    github: "",
+    color: "#2B6CB0",
+  },
+  {
+    id: 22,
+    name: "Sistem Informasi Dan PPDB Digital Ra an-nabil",
+    team: "tim Ra an-nabil",
+    kelas: "X PPLG 2",
+    kategori: "Kelompok",
+    desc: "Sistem Informasi Dan PPDB Digital",
+    descLong: "membantu untuk menyampaikan atau mengumumkan informasi dengan mudah dan aman. Sistem ini secara otomatis membantu pengguna untuk mencari informasi yang mereka inginkan, serta Mempermudah sekolah untuk menyampaikan informasi mereka.",
+    thumbnail: "thumbnail/RA AN NABIL.jpg",
+    anggota: [
+      { nama: "Muhammad Septian Azriel Saputra", peran: "Full Stack Developer" },
+      { nama: "Siti Zulfatul Hajar", peran: "Project Manager " },
+      { nama: "Rafka Arshan Vialdi", peran: "Analis" },
+    ],
+    tech: ["PHP", "MYSQL ", "JS","css"],
+    demo: "https://ppdb-ra-an-nabil.my.id",
+    github: "",
+    color: "#2B6CB0",
+  },
 ];
+
 
 // Filter tetap: Semua, Kelompok, Individual
 const KATEGORI_LIST = ["Semua", "Kelompok", "Individual"];
@@ -591,14 +653,29 @@ function initFilters() {
 function cardHTML(p) {
   const techTags = p.tech.map((t) => `<span class="tech-tag">${t}</span>`).join("");
   const katBadgeClass = p.kategori === "Individual" ? "badge--gray" : "badge--blue";
-  return `
-    <div class="card">
-      <div class="card__thumb-placeholder">
+  
+  // Thumbnail rendering: image jika ada, fallback ke placeholder
+  const thumbHTML = p.thumbnail 
+    ? `<img src="${p.thumbnail}" alt="${p.name}" class="card__thumb-image" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">` +
+      `<div class="card__thumb-placeholder" style="display:none;">
         <svg width="40" height="40" fill="none" stroke="currentColor" stroke-width="1.4" viewBox="0 0 24 24" color="#1A5496">
           <rect x="2" y="3" width="20" height="14" rx="2" ry="2"/>
           <path stroke-linecap="round" d="M8 21h8M12 17v4"/>
         </svg>
         <span>${p.kelas}</span>
+      </div>`
+    : `<div class="card__thumb-placeholder">
+        <svg width="40" height="40" fill="none" stroke="currentColor" stroke-width="1.4" viewBox="0 0 24 24" color="#1A5496">
+          <rect x="2" y="3" width="20" height="14" rx="2" ry="2"/>
+          <path stroke-linecap="round" d="M8 21h8M12 17v4"/>
+        </svg>
+        <span>${p.kelas}</span>
+      </div>`;
+  
+  return `
+    <div class="card">
+      <div class="card__thumb-container">
+        ${thumbHTML}
       </div>
       <div class="card__body">
         <div class="card__meta">
@@ -638,6 +715,24 @@ function renderDetail(id) {
   document.getElementById("detailTeam").textContent = `${p.team} · ${p.kelas}`;
   document.getElementById("detailBadge").textContent = p.kategori;
 
+  // Render thumbnail dengan aspect ratio tetap dan click handler
+  const thumbContainer = document.getElementById("detailThumbnailContainer");
+  if (p.thumbnail) {
+    thumbContainer.innerHTML = `<img src="${p.thumbnail}" alt="${p.name}">`;
+    const thumbImg = thumbContainer.querySelector("img");
+    thumbImg.addEventListener("click", () => {
+      openPhotoModal(p.thumbnail, p.name);
+    });
+  } else {
+    thumbContainer.innerHTML = `<div class="card__thumb-placeholder">
+      <svg width="48" height="48" fill="none" stroke="currentColor" stroke-width="1.4" viewBox="0 0 24 24" color="#1A5496">
+        <rect x="2" y="3" width="20" height="14" rx="2" ry="2"/>
+        <path stroke-linecap="round" d="M8 21h8M12 17v4"/>
+      </svg>
+      <span style="font-size:.85rem">Screenshot Website Project</span>
+    </div>`;
+  }
+
   document.getElementById("detailDesc").textContent = p.descLong;
   document.getElementById("detailTujuan").textContent = p.tujuan;
 
@@ -672,6 +767,24 @@ function renderDetail(id) {
 }
 
 /* ==============================
+   PHOTO MODAL
+   ============================== */
+function openPhotoModal(imageSrc, altText) {
+  const modal = document.getElementById("photoModal");
+  const modalImg = document.getElementById("photoModalImage");
+  modalImg.src = imageSrc;
+  modalImg.alt = altText;
+  modal.classList.add("active");
+  document.body.style.overflow = "hidden";
+}
+
+function closePhotoModal() {
+  const modal = document.getElementById("photoModal");
+  modal.classList.remove("active");
+  document.body.style.overflow = "auto";
+}
+
+/* ==============================
    INIT
    ============================== */
 document.addEventListener("DOMContentLoaded", () => {
@@ -691,5 +804,20 @@ document.addEventListener("DOMContentLoaded", () => {
       e.preventDefault();
       navigate("projects");
     });
+  });
+
+  // Modal event listeners
+  const photoModal = document.getElementById("photoModal");
+  const photoModalClose = document.getElementById("photoModalClose");
+  const photoModalOverlay = document.getElementById("photoModalOverlay");
+
+  photoModalClose.addEventListener("click", closePhotoModal);
+  photoModalOverlay.addEventListener("click", closePhotoModal);
+
+  // Close modal dengan ESC key
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape" && photoModal.classList.contains("active")) {
+      closePhotoModal();
+    }
   });
 });
