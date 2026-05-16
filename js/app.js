@@ -385,7 +385,7 @@
     color: "#2B6CB0",
   },
   {
-    id: 6,
+    id: 19,
     name: "LapakSapa",
     team: "Muhammad Devara Hermawan",
     kelas: "X PPLG 1",
@@ -401,6 +401,25 @@
     tech: ["react", "next js", "tailwind css", "supabase"],
     demo: "https://ground-shop.vercel.app/",
     github: "https://github.com/devara-g/groundShop",
+    color: "#2B6CB0",
+  },
+  {
+    id: 20,
+    name: "SiP3",
+    team: "tim SiP3",
+    kelas: "X PPLG 1",
+    kategori: "Kelompok",
+    desc: "Situs website informasi sekolah dengan banyak fitur, chat aspirasi, dan lain lain.",
+    descLong:
+      "SiP3 membantu untuk menyampaikan atau mengumumkan informasi dengan mudah dan aman. Sistem ini secara otomatis membantu pengguna untuk mencari informasi yang mereka inginkan, serta Mempermudah sekolah untuk menyampaikan informasi mereka.",
+    tujuan:
+      "Mempermudah dalam menyampaikan atau mencari informasi dengan mudah dan aman.",
+    anggota: [
+      { nama: "Muhammad Devara Hermawan", peran: "Full Stack Developer" },
+    ],
+    tech: ["PHP", "MYSQL ", "JS","css", "supabase"],
+    demo: "https://smppgri3bogor.my.id/",
+    github: "https://github.com/devara-g/Information-p3-website",
     color: "#2B6CB0",
   },
 ];
