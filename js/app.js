@@ -416,6 +416,9 @@
       "Mempermudah dalam menyampaikan atau mencari informasi dengan mudah dan aman.",
     anggota: [
       { nama: "Muhammad Devara Hermawan", peran: "Full Stack Developer" },
+      { nama: "Muhammad Imam Maliq Al-kahfi", peran: "Project Manager " },
+      { nama: "Calvin Michael Ariesta Saputra", peran: "Front End Developer" },
+      { nama: "Galuh Setyaningsih ", peran: "Analis" },
     ],
     tech: ["PHP", "MYSQL ", "JS","css", "supabase"],
     demo: "https://smppgri3bogor.my.id/",
