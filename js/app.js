@@ -413,7 +413,7 @@
       "LapakSapa membantu untuk menjual atau membeli barang dengan mudah dan aman. Sistem ini secara otomatis membantu pengguna untuk mencari barang yang mereka inginkan, serta membantu penjual untuk menjual barang mereka.",
     tujuan:
       "Mempermudah dalam menjual atau membeli barang dengan mudah dan aman.",
-    thumbnail: "thumbnail/IMG-20260516-WA0050 - Septian Azriel.jpg",
+    thumbnail: "thumbnail/Thumbnail-lapak-sapa.png",
     anggota: [
       { nama: "Muhammad Devara Hermawan", peran: "Full Stack Developer" },
     ],
@@ -484,6 +484,23 @@
     tech: ["PHP", "MYSQL ", "JS","css"],
     demo: "https://ppdb-ra-an-nabil.my.id",
     github: "",
+    color: "#2B6CB0",
+  },
+  {
+    id: 23,
+    name: "Teras-Warga",
+    team: "Muhammad Imam Maliq Al Kahfi",
+    kelas: "X PPLG 1",
+    kategori: "Individual",
+    desc: "Ekosistem Warga Digital",
+    descLong: "Teras Warga is a modern social community platform focused on local interaction, communication, community services, and digital collaboration with a clean and scalable architecture.",
+    thumbnail: "thumbnail/thumbnail-teras warga.png",
+    anggota: [
+      { nama: "Muhammad Imam Maliq Al Kahfi", peran: "Full Stack Developer" },
+    ],
+    tech: ["Tailwind css", "Supabase", "Next.js", "React", "Typescript"],
+    demo: "https://teras-warga.vercel.app/",
+    github: "https://github.com/MUFIENS/teras-warga",
     color: "#2B6CB0",
   },
 ];
