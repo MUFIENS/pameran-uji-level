@@ -503,6 +503,23 @@
     github: "https://github.com/MUFIENS/teras-warga",
     color: "#2B6CB0",
   },
+  {
+    id: 24,
+    name: "Website PAUD MAESSAR BAYAN",
+    team: "Tim paud maessar bayan",
+    kelas: "X PPLG 1",
+    kategori: "Kelompok",
+    desc: "Media informasi digital PAUD Maessar Bayan yang memudahkan akses informasi sekolah bagi orang tua dan masyarakat.",
+    descLong: "Website edukasi PAUD berbasis web yang menyediakan informasi sekolah, galeri kegiatan, artikel edukatif, permainan interaktif, serta fitur perkembangan anak untuk mendukung proses belajar dan tumbuh kembang anak usia dini.",
+    thumbnail: "thumbnail/Maesar-bayyan.png",
+    anggota: [
+      { nama: "Amelia Nurcahyani", peran: "Programmer", nama: "Siti Salwatun Tafriziyah ", peran: "Analis", nama: "Umu Toyyibah Nurussalwa", peran: "Project Manager" },
+    ],
+    tech: ["PHP", "CSS", "JS", "HTML"],
+    demo: "https://paudmaessarbayan.my.id",
+    github: "https://github.com/Amelianurcahyani28/sekolah",
+    color: "#2B6CB0",
+  },
 ];
 
 
